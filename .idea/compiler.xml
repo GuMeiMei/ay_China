@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ay_config_center" />
+        <module name="ay_eureka_center" />
+        <module name="ay_register_interface" />
+        <module name="ay_register_service" />
+        <module name="ay_zuul_server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
