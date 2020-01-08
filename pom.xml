@@ -13,6 +13,7 @@
         <module>ay_eureka_center</module>
         <module>ay_config_center</module>
         <module>ay_register</module>
+        <module>ay_upload</module>
 
     </modules>
 

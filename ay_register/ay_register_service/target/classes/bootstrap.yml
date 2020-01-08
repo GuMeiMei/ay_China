@@ -1,6 +1,7 @@
 spring:
   application:
     name: register-server
+
   profiles:
     active: dev
   cloud:

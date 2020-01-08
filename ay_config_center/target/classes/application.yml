@@ -1,14 +1,20 @@
+server:
+  port: 8762
 spring:
   application:
-    name: register-server
+    name: config-server
   profiles:
-    active: dev
+      active: native
   cloud:
     config:
-      discovery:
-        service-id: config-server
-        enabled: true #开启配置服务功能
-      fail-fast: true
+      server:
+        native: #配置文件在本地
+          search-locations: classpath:${config-location}
+      fail-fast: true #快速失败策略
+        #git: #配置文件在远程的git仓库
+        #  uri:
+        #  username:
+        #  password:
 
 eureka:
   client:
